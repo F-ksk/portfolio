@@ -154,10 +154,9 @@ section {
 }
 
 .work-description {
-    padding: 20px;
+    padding: 60px 20px;
     background-color:antiquewhite;
     border-radius: 16px;
-    margin-bottom: 20px;
     width: 45%;
     text-align: center;
 }
