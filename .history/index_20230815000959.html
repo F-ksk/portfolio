@@ -12,13 +12,13 @@
     <body>
         
         <header>
-            <a href="index.html">my works</a>
+            <a href="index.html">FK works</a>
             <nav>
                 <ul>
-                    <li>About</li>
-                    <li>Skills</li>
-                    <li>Works</li>
-                    <li>Contact</li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#works">Works</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
@@ -40,7 +40,7 @@
                 <p>
                     国立大学法人福井大学・工学部・電気電子情報工学科在学中。<br>
                     大学でプログラミングを学び、プログラミングスキルを向上させるため、日々、勉強しています。
-                    C,Python,Java,HTML,CSS,SQLの知識とプログラミング経験があります。<br>
+                    C,Python,Java,HTML,CSS,PHP,Javascript,SQL,Rの知識とプログラミング経験があります。<br>
                     趣味はツーリング。
                 </p>
                 <img src="./img/man.jpg">
@@ -63,33 +63,62 @@
                 </div>
                 <div class="skill-item">
                     <h3>PHP</h3>
-                    <p>大学の講義では習わないため、学習サイト等で学び、----------------</p>
+                    <p>大学の講義では習わないため、学習サイト等で学んだ。学習サイトを参考に、掲示板サイトやToDoサイトを作成。</p>
                 </div>
                 <div class="skill-item">
                     <h3>HTML / CSS</h3>
                     <p>大学の講義では習わないため、学習サイト等で学び、ポートフォリオを作成。</p>
                 </div>
                 <div class="skill-item">
-                    <h3>JavaScript</h3>
-                    <p>フロントサイドでは、動きのある動作を作るために使用。</p>
+                    <h3>GAS</h3>
+                    <p>GASを用いて、簡単なデータ処理、分析、可視化を学習。</p>
                 </div>
                 <div class="skill-item">
                     <h3>SQL</h3>
                     <p>データに興味があり、自発的に基本的な知識を学び、簡単なSQL文が書ける。</p>
+                </div>
+                <div class="skill-item">
+                    <h3>R</h3>
+                    <p>データサイエンスを学び、モデルの評価、データ分析、データの加工を行える。</p>
                 </div>
             </div>
         </section>
         <section id="works">
             <h2>Works</h2>
             <div class="work-item">
-                <img src="./img/portfolio.jpg">
-                <img src="./img/portfolio(2).png">
                 <div class="work-description">
                     <h3>翻訳アプリ</h3>
-                    <p>デスクトップで翻訳するアプリ。webブラウザの自動化とスクレイピングを用いて実装。</p>
+                    <img src="./img/portfolio.jpg">
+                    <p>デスクトップで翻訳するアプリ。</p>
+                    <p>自動化、スクレイピング等を使い作成</p>
+                </div>
+                
+                <div class="work-description">
                     <h3>ポートフォリオサイト</h3>
+                    <img src="./img/portfolio(2).png">
                     <p>現在表示しているサイト。</p>
                 </div>
+
+                <div class="work-description">
+                    <h3>ホッケーゲーム</h3>
+                    <img src="./img/hokey.png">
+                    <p>ホッケーのゲーム。Javaで作成</p>
+                </div>
+
+                <div class="work-description">
+                    <h3>掲示板サイト</h3>
+                    <img src="./img/掲示板.png">
+                    <p>HTML,CSS,PHPを使い、</p>
+                    <p>データベースなども学びながら作成</p>
+                </div>
+
+                <div class="work-description">
+                    <h3>ToDoサイト</h3>
+                    <img src="./img/todo.png">
+                    <p>フレームワークにLaravelを使い、</p>
+                    <p>マイグレーションファイル、UI等作成</p>
+                </div>
+                
             </div>
         </section>
         <section id="contact">
@@ -97,14 +126,16 @@
             <div class="contact-form">
                 <!--<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfhIRxsClYk-LjjOeqSs9rPikyz6iXAlGFSL5PuYS38eefG3A/viewform?embedded=true" width="640" height="682" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe> -->
                 
-                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfhIRxsClYk-LjjOeqSs9rPikyz6iXAlGFSL5PuYS38eefG3A/formResponse">
-                    <label for="name">お名前</label>
-                    <input id="name" type="text" name=&quotentry.1209985459" placeholder="名前">
-                    <label for="email">メールアドレス</label>
-                    <input id="email" type="text" name=&quotentry.1499214278" placeholder="example@mail.co.jp">
-                    <label for="msg">お問い合わせ内容</label>
-                    <textarea id="msg" name=&quotentry.1422841443" placeholder="お気軽にお問い合わせください。"></textarea>
-                    <button type="submit" name="button" value="送信"></button>
+                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSfhIRxsClYk-LjjOeqSs9rPikyz6iXAlGFSL5PuYS38eefG3A/formResponse" target="_self" method="POST" id="mG61Hd">
+                    <dl>
+                        <dt>お名前</dt>
+                        <dd><input name="entry.{1209985459}" type="text" required="required" id="textfield" class="g_form"></dd>
+                        <dt>メールアドレス</dt>
+                        <dd><input name="entry.{1499214278}" type="text" class="g_form" id="textfield2"></dd>
+                        <dt>問い合わせ内容</dt>
+                        <dd><textarea name="entry.{1422841443}" required class="g_form_text" id="entry.{1422841443}"></textarea></dd>
+                      </dl>
+                      <div class="button"><input type="submit" class="btbt"></div>
                 </form>
                 
             </div>
