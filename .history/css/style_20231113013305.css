@@ -177,11 +177,6 @@ section {
     10px 0 80px #ff0; 
 }
 
-.skill-item p {
-    text-shadow: 
-    0 0 20px #000;
-}
-
 .work-item {
     display: flex;
     justify-content: space-between;

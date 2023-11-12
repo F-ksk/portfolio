@@ -159,7 +159,7 @@ section {
     inset 20px 0 80px #0ff, 
     inset -20px 0 80px #ff0, 
     inset 20px 0 300px #0ff, 
-    inset -20px 0 300px #0ff, 
+    inset -20px 0 300px #ff0, 
     0 0 10px #fff, 
     0px 0 10px #0ff,
     0px 0 10px #ff0;  
@@ -175,11 +175,6 @@ section {
     0 0 50px #fff, 
     -10px 0 80px #0ff,
     10px 0 80px #ff0; 
-}
-
-.skill-item p {
-    text-shadow: 
-    0 0 20px #000;
 }
 
 .work-item {
