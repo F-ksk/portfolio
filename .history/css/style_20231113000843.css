@@ -173,6 +173,10 @@ section {
     text-align: center;
 }
 
+.work-description:hover {
+    transform: scale(1.1); /* ホバー時に要素を拡大 */
+}
+
 .work-description p {
     margin-top: 10px;
 }

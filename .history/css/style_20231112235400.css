@@ -83,7 +83,7 @@ header li {
 }
 
 #about{
-    background-color: black;
+    background-color: #24292e;
     color: #fff;
 }
 
@@ -125,8 +125,7 @@ section {
 }
 
 #skills {
-    background-color: black;
-    color: white;
+    background-color: darkgray;
 }
 
 #skills h3 {
@@ -141,7 +140,7 @@ section {
 
 .skill-item {
     width: 48%;
-    background-color: darkslategrey;
+    background-color: #fff;
     border-radius: 16px;
     margin-bottom: 20px;
     padding: 30px;
@@ -155,7 +154,7 @@ section {
 }
 
 #works{
-    background-color: black;
+    background-color: #24292e;
     color: whitesmoke;
 }
 
@@ -166,7 +165,7 @@ section {
 
 .work-description {
     padding: 20px;
-    background-color:darkslategray;
+    background-color:darkcyan;
     border-radius: 16px;
     margin-bottom: 20px;
     width: 45%;
@@ -183,8 +182,7 @@ section {
 }
 
 #contact {
-    background-color: black;
-    color: white;
+    background-color: #EBDFE0;
     text-align: center;
 }
 
